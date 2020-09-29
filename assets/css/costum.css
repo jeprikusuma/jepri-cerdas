@@ -1,0 +1,30 @@
+section {
+    min-height: 100vh;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+}
+
+.bg {
+    z-index: -1;
+}
+
+.bg.bg-top {
+    top: -10rem;
+    right: -15rem;
+}
+
+.bg-top img {
+    height: 40rem;
+    transform: rotate(180deg);
+}
+
+.bg.bg-bot {
+    bottom: -5rem;
+    left: -5rem;
+    transform: rotate(180deg);
+}
+
+.bg-bot img {
+    height: 21rem;
+}
